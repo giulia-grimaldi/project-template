@@ -10,10 +10,11 @@
 - Python 3.x
 - [main libraries]
 
-## How to run
+## How to run (Git Bash / Linux)
 ```
-python -m venv .venv
-.venv\Scripts\Activate.ps1
+git clone <repo-url>
+cd <repo-name>
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
